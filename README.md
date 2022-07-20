@@ -9,17 +9,17 @@ Sticky notes is an application you can use to create sticky notes.
 - Ability to move highlights from one bucket to another.
 - Ability to zoom in/zoom out of the whiteboard, resizing the tool components themselves.
  
-#BROWSER SUPPORT
+# BROWSER SUPPORT
 Chrome, Firefox 3.5+, Safari 4+, Opera 10+, Internet Explorer 8+, Brave
 
-#Set-up
+# Set-up
 ```
 git clone https://github.com/KhushiChaudhary744/Sticky-Notes.git
 ```
 Make sure the three files are in same folder.
 Simply open the index.html file using any browser.
 
-#What I have done
+# What I have done
 
 The site is designed to have a very retro look.
 I have implemented the code using simple HTML, CSS, and pure javascript.
