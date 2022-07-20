@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src ="scripts.js" defer></script>
+    <title>Document</title>
+  <body>
+        <div id="stickies-container"></div>
+        <div class="sticky-form">
+            <label for="stickytitle">Title</label>
+            <input type="text" name="stickytitle" id="stickytitle" />
+            <label for="stickytext">Notes</label>
+            <textarea
+                name="stickytext"
+                id="stickytext"
+                cols="24"
+                rows="10"
+            ></textarea>
+            <button class="button" id="createsticky">Stick it!</button>
+        </div>
+        <div id ="GroupList">
+            <div class="buttons-container">
+                <button onclick="addItem()">Add Bucket</button>
+                <button onclick="removeItem()">Remove Bucket</button>
+              </div>
+              <div class="items-container"></div>
+        </div>
+    </body>
+</html>
